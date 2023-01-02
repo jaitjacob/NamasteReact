@@ -1,0 +1,11 @@
+{
+  "name": "chapter02_igniting_our_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT"
+}
