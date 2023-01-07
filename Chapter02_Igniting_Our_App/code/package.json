@@ -2,9 +2,9 @@
   "name": "chapter02_igniting_our_app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +13,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
