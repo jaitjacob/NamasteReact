@@ -12,4 +12,4 @@ Data JSON is extracted from an API on Swiggy's website to grasp how real world p
 
 # UI Mockup
 
-<img src=".\code\img\ui_mockup.svg" width="100%" height="400px">
+<img src=".\code\img\ui_mockup.png" width="100%" height="320px">
