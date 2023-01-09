@@ -12,11 +12,11 @@ Welcome to the Ignition Chapter. I've installed Parcel Bundler for this Chapter.
 
 - First build,
 
-  <img src=".\img\first_buid_334_ms.png"  width="80%">
+  <img src=".\code\img\first_buid_334_ms.png"  width="80%">
 
 - Second build much faster!!,
 
-  <img src=".\img\second_build_14ms.png"  width="80%">
+  <img src=".\code\img\second_build_14ms.png"  width="80%">
 
 5. Add npm scripts in package.json,
 
@@ -24,7 +24,7 @@ Welcome to the Ignition Chapter. I've installed Parcel Bundler for this Chapter.
 
    - `start` added to `scripts` within `package.json` will essentially run `npx parcel index.html`
 
-     <img src=".\img\dev_build.png" width="80%">
+     <img src=".\code\img\dev_build.png" width="80%">
       
       
       💡 Compare the fize size of Dev Build to Prod Build below.
@@ -33,7 +33,7 @@ Welcome to the Ignition Chapter. I've installed Parcel Bundler for this Chapter.
 
    - `build` added to `scripts` within `package.json` will essentially run `npx parcel build index.html`
 
-     <img src=".\img\prod_build.png" width="80%">
+     <img src=".\code\img\prod_build.png" width="80%">
 
      💡 You might notice that Development build is **2x bigger** compared to Production build.
 
