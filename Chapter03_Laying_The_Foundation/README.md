@@ -16,5 +16,15 @@ In this chapter I'm experimenting with Functional Components.
 
     - Read about Abstract Syntax Tree.
 
-3.  Use Babel.
-    - Nothing to do here because Parcel comes with Babel out-of-box.
+3.  Configure Babel.
+
+    🚩 I tried **NOT** installing Parcel in this project & trying to configure Babel alone but was unsuccessful.
+
+    - Install @bable/core and @babel/cli.
+    - Add scripts for Babel in package.json
+    - Add following presets,
+
+    > @babel/preset-env for compiling ES2015+ syntax
+    > @babel/preset-react for React
+
+    Doing all this was a hassel. Sticking to Parcel for now. I will get into Babel nitty-gritty at some later point.
