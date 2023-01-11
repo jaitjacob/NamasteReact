@@ -1,6 +1,8 @@
 # 🔰 Intro
 
-In this chapter I'm experimenting with Functional Components.
+In this chapter I'm experimenting with Functional Components. Following is a UI mockup of a functional component I created in this Chapter,
+
+<img src="code\img\header_component_ui_mock.png">
 
 # 🥡 Takeaways
 
