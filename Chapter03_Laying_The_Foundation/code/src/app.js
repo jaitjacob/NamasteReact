@@ -1,5 +1,6 @@
 import { createElement } from "react";
 import { createRoot } from "react-dom/client";
+import "./style.css";
 
 // //Nested Header
 // const h1 = createElement("h1", { key: "h1" }, "Hello");
@@ -49,9 +50,39 @@ import { createRoot } from "react-dom/client";
 
 // Create a Header Component from scratch using Functional Component with JSX
 // 1. Add a Logo on left.
+function Logo() {
+  return (
+    <img
+      src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/sparkles_2728.png"
+      alt="sparkle emoji as logo"
+      className="logo"
+    />
+  );
+}
 // 2. Add a search bar in middle.
+function SearchBar() {
+  return <input type="text" placeholder="🔎 Search"></input>;
+}
 // 3. Add User icon on right.
-// 3. Add CSS to beautify.
+function Avatar() {
+  return (
+    <div id="avatar">
+      <br></br>A
+    </div>
+  );
+}
+// 4. Add CSS to beautify.
+
+// Final Header Component
+function HeaderComponent() {
+  return (
+    <div className="header">
+      <Logo></Logo>
+      <SearchBar></SearchBar>
+      <Avatar></Avatar>
+    </div>
+  );
+}
 
 const root = createRoot(document.getElementById("root"));
 
@@ -63,3 +94,4 @@ const root = createRoot(document.getElementById("root"));
 // ]);
 
 //PART - 2 of the assignment
+root.render(<HeaderComponent></HeaderComponent>);
