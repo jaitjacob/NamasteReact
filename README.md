@@ -1,17 +1,13 @@
 # 🔬 NamasteReact
 
-Welcome. This repo contains code &amp; learnings from Namaste React bootcamp that I am attending.
+Welcome. This repo contains my learnings from Namaste React bootcamp in which I build a fully functional React Web App.
 
-This bootcamp dives deeply into the internal workings of React as a library. So a lot of React concepts will be demystified here.
+This bootcamp dives deeply into the internal workings of React as a library. A lot of React concepts exaplained in a simpler language can be found in my notes.
 
 # 🌏 How to navigate?
 
-Each Chapter folder has **two** folders within. Namely,
+~~Each Chapter folder has **two** folders within. Namely,~~ _I no longer maintain Chapter-wise code. I feel it is redundant and unneccessary._
 
-`code` :point_right: contains practice code related to concepts taught in that Chapter.
+`code` :point_right: This is where the capstone project from this course resides. It is a clone of a popular food delivery service operating out of India.
 
-`recap` :point_right: contains recap of what was taught in a PDF form. this is something I create for my own purposes occassionally posting it in our Discord.
-
-# 💫 Highlights
-
-_We are only 3 weeks into the bootcamp. Yet to add this. I will use this space to add projects that we build and things I am proud of from the bootcamp._
+`notes` :point_right: contains my notes as downloadable PDF. This is something I create for my own purposes occassionally posting it on NR Discord.
