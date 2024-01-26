@@ -1,6 +1,6 @@
 import "./App.css";
-import logo from "./assets/logo.png";
-
+import Header from "./Header";
+import RestaurantCard from "./RestaurantCard";
 /*
 Header
   Navbar
@@ -11,21 +11,21 @@ Body
 Footer
   Copyright
 */
-function Header() {
-  return (
-    <div className="header">
-      <div className="logo-container">
-        <img height={250} width={250} src={logo} />
-      </div>
-      <p>Maitre D</p>
-    </div>
-  );
-}
 
 function App() {
   return (
     <div className="app">
-      <Header></Header>
+      <Header />
+      <div className="flex flex-wrap justify-around m-5 border border-red-600 p-1">
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+      </div>
     </div>
   );
 }
