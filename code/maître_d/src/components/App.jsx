@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import Header from "./Header";
 import RestaurantCard from "./RestaurantCard";
 /*
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <div className="flex flex-wrap justify-around m-5 border border-red-600 p-1">
+      <div className="flex flex-wrap justify-start border border-red-600">
         <RestaurantCard />
         <RestaurantCard />
         <RestaurantCard />

@@ -1,13 +1,13 @@
 export default function RestaurantCard() {
   return (
-    <div className="border-2 border-black w-1/4 p-1">
+    <div className="border-2 border-black w-1/4 p-1 m-5">
       <img className="w-full" src="https://placehold.co/600x400"></img>
-      <p className="font-serif">Burrgerr Qween</p>
+      <p className="font-bold px-1">Burrgerr Qween</p>
+
       <div className="flex">
         <svg
           className="my-1 mx-1"
           width="20"
-          height="20"
           viewBox="0 0 20 20"
           fill="none"
           role="img"
@@ -39,7 +39,7 @@ export default function RestaurantCard() {
             </linearGradient>
           </defs>
         </svg>
-        <p className="align-middle text-sm"> 4.2 • 7-10mins</p>
+        <p className="align-middle text-sm font-thin"> 4.2 • 7-10mins</p>
       </div>
     </div>
   );
