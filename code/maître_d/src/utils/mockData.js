@@ -1,4 +1,4 @@
-const resList = [
+export const resList = [
   {
     info: {
       id: "464509",
@@ -354,15 +354,6 @@ const resList = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {
-      context: "seo-data-4bad8d21-1aae-4370-8920-b246e4684e60",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/beijing-bites-richmond-town-bangalore-8766",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
@@ -474,15 +465,6 @@ const resList = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {
-      context: "seo-data-4bad8d21-1aae-4370-8920-b246e4684e60",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/the-red-box-hal-3rd-stage-jeevanbhimanagar-bangalore-154365",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
@@ -604,5 +586,3 @@ const resList = [
     },
   },
 ];
-
-export default resList;
