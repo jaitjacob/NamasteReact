@@ -67,9 +67,9 @@ export const resList = [
       areaName: "Adugodi",
       costForTwo: "₹250 for two",
       cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
-      avgRating: 4.1,
+      avgRating: 3.5,
       parentId: "61955",
-      avgRatingString: "4.1",
+      avgRatingString: "3.5",
       totalRatingsString: "1K+",
       sla: {
         deliveryTime: 31,
@@ -210,9 +210,9 @@ export const resList = [
         "Keto",
         "Healthy Food",
       ],
-      avgRating: 4.6,
+      avgRating: 3,
       parentId: "1252",
-      avgRatingString: "4.6",
+      avgRatingString: "3",
       totalRatingsString: "1K+",
       sla: {
         deliveryTime: 25,
