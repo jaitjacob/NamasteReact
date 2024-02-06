@@ -2,10 +2,26 @@ import "../App.css";
 import Header from "./Header";
 import RestaurantCard from "./RestaurantCard";
 import { resList } from "../utils/mockData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [listOfRestaurants, setListOfRestaurant] = useState(resList);
+  useEffect(() => {
+    console.log("useffect called.");
+    async function fetchRestaurants() {
+      try {
+        const rawRestaurants = await fetch(
+          "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.97&lng=77.59"
+        );
+        const rawJson = await rawRestaurants.json();
+        console.log(rawJson);
+      } catch {
+        console.warn("cors issue. skill issue.");
+      }
+    }
+    fetchRestaurants();
+  });
+
   return (
     <div className="app">
       <Header />
