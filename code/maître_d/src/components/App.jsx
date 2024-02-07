@@ -1,7 +1,7 @@
 import "../App.css";
 import Header from "./Header";
 import RestaurantCard from "./RestaurantCard";
-import { resList } from "../utils/mockData";
+//import { resList } from "../utils/mockData";
 import { useEffect, useState } from "react";
 
 function App() {
