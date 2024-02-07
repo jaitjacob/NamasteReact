@@ -1,8 +1,12 @@
 import { IMG_CDN_URL } from "../utils/constants";
 
-export default function RestaurantCard(props) {
-  const resInfo = props.resData;
-  const { name, avgRating, sla, cuisines, cloudinaryImageId } = resInfo;
+export default function RestaurantCard({
+  name,
+  avgRating,
+  sla,
+  cuisines,
+  cloudinaryImageId,
+}) {
   return (
     <div className="border-2 border-black w-1/4 p-1 m-5">
       <img className="w-full" src={`${IMG_CDN_URL}${cloudinaryImageId}`}></img>
